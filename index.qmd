@@ -4,9 +4,9 @@ fontsize: 12pt
 format: 
   summit-typst:
     papersize: a4
-    margin:
-      x: 3cm
-      y: 3cm
+    # margin:
+    #   x: 3cm
+    #   y: 3cm
     # mainfont: "Clash Display Variable"
     # font-paths: fonts
 # format:
