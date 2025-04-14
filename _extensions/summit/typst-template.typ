@@ -138,16 +138,15 @@
       font: "Clash Display Variable",
       size: 1.8em,
       fill: rgb("#AEC800"),
-      weight: "regular")
+    )
     #block(it.body)
   ]
   show heading.where( level: 2): it => [
-    // #set align(center)
     #set text(
       font: "Clash Display Variable",
       size: 1.5em,
       fill: rgb("#AEC800"),
-      weight: "regular")
+    )
     #block(it.body)
   ]
   show heading.where( level: 3): it => [
@@ -156,17 +155,9 @@
       font: "Clash Display Variable",
       size: 1.3em,
       fill: rgb("#DEFF00"),
-      // weight: "regular"
       )
     #block(it.body)
   ]
-
-  // if date != none {
-  //   let dt = parse-date("2025-11-26")
-  //   align(center)[#block(inset: 1em)[
-  //     #dt.display("[day] [month repr:long]")
-  //   ]]
-  // }
 
   if abstract != none {
     block(inset: 2em)[
