@@ -105,6 +105,34 @@
     pagebreak()
   }
 
+// silhouette.double
+// silhouette.speak
+
+  show heading.where( level: 1): it => [
+    // #set align(center)
+    #set text(
+      font: "Clash Display Variable",
+      size: 1.8em,
+      weight: "regular")
+    #block(it.body)
+  ]
+  show heading.where( level: 2): it => [
+    // #set align(center)
+    #set text(
+      font: "Clash Display Variable",
+      size: 1.5em,
+      weight: "regular")
+    #block(it.body)
+  ]
+  show heading.where( level: 3): it => [
+    // #set align(center)
+    #set text(
+      font: "Clash Display Variable",
+      size: 1.3em,
+      weight: "regular")
+    #block(it.body)
+  ]
+
   if date != none {
     align(center)[#block(inset: 1em)[
       #date
