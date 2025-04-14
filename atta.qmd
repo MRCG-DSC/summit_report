@@ -1,0 +1,25 @@
+---
+title: "Epiverse TRACELAC"
+format: 
+  typst:
+    toc: False
+    margin: 
+      x: 0cm
+      y: 0cm
+---
+
+```{=typst}
+#place(top + left)[
+  #image("wave.svg", width: 80%, height: 20%)
+]
+  
+#place(bottom + right)[
+  #rotate(180deg,image("wave.svg", width: 80%, height: 10%))
+] 
+  
+#grid(
+  columns: (1fr, 1fr),
+  align(center)[Logo1],
+  align(center)[Logo2]
+)
+```
