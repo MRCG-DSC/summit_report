@@ -37,7 +37,7 @@
   lang: "en",
   region: "US",
   font: (),
-  fontsize: 11pt,
+  fontsize: 12pt,
   sectionnumbering: none,
   toc: false,
   doc,
@@ -58,7 +58,7 @@
     //   #rotate(180deg, 
     //   image("wave.svg", width: 70%, height: 100%))
     // ]],
-    background: rect(fill: aqua.darken(50%))[ 
+    background: rect(fill: rgb("#888"))[ 
       #place(top + left)[
         #image("wave.svg", width: 70%, height: 20%)]
       #place(bottom + right)[
@@ -80,7 +80,9 @@
     align(center + horizon)[#block(inset: 1em)[
       #text(
         font: "Clash Display Variable",
-        weight: "bold", size: 2.2em
+        weight: "bold", 
+        size: 2.2em,
+        fill: rgb("#106BA0")
         )[#title]
     ]]
   }
@@ -113,6 +115,7 @@
     #set text(
       font: "Clash Display Variable",
       size: 1.8em,
+      fill: rgb("#AEC800"),
       weight: "regular")
     #block(it.body)
   ]
@@ -121,14 +124,16 @@
     #set text(
       font: "Clash Display Variable",
       size: 1.5em,
+      fill: rgb("#AEC800"),
       weight: "regular")
     #block(it.body)
   ]
   show heading.where( level: 3): it => [
-    // #set align(center)
+    #pagebreak()
     #set text(
       font: "Clash Display Variable",
       size: 1.3em,
+      fill: rgb("#F04A4C"),
       weight: "regular")
     #block(it.body)
   ]
