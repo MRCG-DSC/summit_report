@@ -71,9 +71,13 @@
   set heading(numbering: sectionnumbering)
 
   if title != none {
-    align(center)[#block(inset: 2em)[
-      #text(weight: "bold", size: 2em)[#title]
+    align(center + horizon)[#block(inset: 1em)[
+      #text(
+        font: "Clash Display Variable",
+        weight: "bold", size: 2.2em
+        )[#title]
     ]]
+    pagebreak()
   }
 
   if authors != none {
