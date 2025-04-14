@@ -32,7 +32,7 @@
   date: none,
   abstract: none,
   cols: 1,
-  margin: (x: 2.5cm, y: 2.5cm),
+  margin: (x: 2.5cm, y: 5cm),
   paper: "a4",
   lang: "en",
   region: "US",
