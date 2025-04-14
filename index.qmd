@@ -4,7 +4,6 @@ fontsize: 12pt
 format: 
   summit-typst:
     papersize: a4
-    keep-typ: true
     margin:
       x: 3cm
       y: 3cm
