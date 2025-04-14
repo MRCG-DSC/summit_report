@@ -151,7 +151,7 @@
     #block(it.body)
   ]
   show heading.where( level: 3): it => [
-    #pagebreak()
+    // #pagebreak()
     #set text(
       font: "Clash Display Variable",
       size: 1.3em,
@@ -184,7 +184,8 @@
   }
 
   if cols == 1 {
-    doc
+    block(inset: 5em, doc)
+    
   } else {
     columns(cols, doc)
   }
