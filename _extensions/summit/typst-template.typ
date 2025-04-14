@@ -98,21 +98,11 @@
            size: fontsize)
   set heading(numbering: sectionnumbering)
 
-  // if subtitle != none {
-  //   align(top + horizon)[#block(inset: 1em)[
-  //     #text(
-  //       font: "Clash Display Variable",
-  //       weight: "bold", 
-  //       size: 1.2em,
-  //       )[#subtitletitle]
-  //   ]]
-  // }
 
   if title != none {
     align(center + horizon)[#block(inset: 1em)[
       #text(
         font: "Clash Display Variable",
-        weight: "bold", 
         size: 2.5em,
         fill: rgb("#106BA0")
         )[#title]
@@ -165,16 +155,18 @@
     #set text(
       font: "Clash Display Variable",
       size: 1.3em,
-      fill: rgb("#F04A4C"),
-      weight: "regular")
+      fill: rgb("#DEFF00"),
+      // weight: "regular"
+      )
     #block(it.body)
   ]
 
-  if date != none {
-    align(center)[#block(inset: 1em)[
-      #date
-    ]]
-  }
+  // if date != none {
+  //   let dt = parse-date("2025-11-26")
+  //   align(center)[#block(inset: 1em)[
+  //     #dt.display("[day] [month repr:long]")
+  //   ]]
+  // }
 
   if abstract != none {
     block(inset: 2em)[
