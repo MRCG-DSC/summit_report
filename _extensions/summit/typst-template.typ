@@ -29,7 +29,7 @@
   set rect(
     width: 100%,
     height: 100%,
-    inset: 4pt,
+    inset: 0pt,
   )
 
   set page(
