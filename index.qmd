@@ -1,11 +1,14 @@
 ---
 title: "Strengthening Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness"
 fontsize: 12pt
+date: 2024-12-02
 format: 
   summit-typst:
+    keep-typ: true
     papersize: a4
     subtitle: Summit 2024, Gambia
     when: December 2-6
+    # columns: 2
     # margin:
     #   x: 3cm
     #   y: 3cm
@@ -15,18 +18,107 @@ format:
 
 # Introduction
 
+::: {.block}
+<!-- ::: {.block fill="luma(230)" inset="8pt" radius="4pt"} -->
+
+Powered by Data.org, the Epiverse-TRACE project has made substantial progress toward producing analytics tools aimed at addressing the most critical questions during epidemics. Currently, up to nine (9) Epiverse-TRACE packages are available on CRAN, with about twenty (20) more under active development. This reflects the results of two years of joint efforts between team members and our user communities.
+
+Every year, the Epiverse-TRACE team members, along with invited stakeholders from WHO, Data.org, and various healthcare organizations, convene to discuss progress, evaluate deliverables, and plan future activities. The third Epiverse-TRACE annual summit will be held at the MRC Unit in Fajara, The Gambia from December 2 to 6, 2024, under the theme: Strengthening Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness.
+
+The organizing committees of this event, composed of members from the different Epiverse teams, have developed the summit’s program to ensure the success of the event. This includes a pre-summit training workshop scheduled to be held a week before the summit (25 - 29 November 2024). The training will be conducted by our team of Research Fellows (RFs), supported by Research Software Engineers (RSEs). Participants will learn how to use our tools within an outbreak analysis workflow.
+
+:::
+
+<!-- ```{=typst}
+#pagebreak()
+``` -->
+
+## Pre Summit Training
+
+This week-long in-person training provides a practical introduction to outbreak data analysis using R packages developed by the Epiverse-TRACE initiative.
+
+**Course Content**
+
+*Day 1*
+
+- Introduction to outbreak analytics and “Outbreak Data Challenges”.
+- Why use R packages for epidemic analytics?
+- How to manipulate data and perform visualization in R?
+
+*Day 2*
+
+- How do I simulate disease spread using a mathematical model?
+- How do I investigate the effect of interventions on disease trajectories?
+
+*Day 3*
+
+- How to clean and standardize case data?
+- How to aggregate and visualize case data?
+- How can I ensure the above tasks are performed in an efficient and reproducible way?
+
+*Day 4*
+
+- What are the delay distributions and what is their usage in outbreak analytics?
+- How to access delay distributions from a literature search database?
+- How can I estimate key transmission metrics from a time series of case data?
+- How do I account for incomplete reporting in forecasts?
+
+*Day 5*
+
+- How to estimate the case fatality ratio (CFR) and adjust for common biases?
+- How can we estimate individual-level variation in transmission (i.e. superspreading potential)?
+- How can we simulate transmission chains based on infection characteristics?
+
+
 ## Participants
 
+```{=typst}
+#lorem(600)
+```
+
 ## Sessions
-### Pre Summit Training
 ### Lessons Learnt and Gaps
+
+```{=typst}
+#lorem(600)
+```
+
 ### Sustainability of Epidemics Analytics Tools
+
+```{=typst}
+#lorem(600)
+```
+
 ### Inclusivity within Epiverse-TRACE Tools
 
 Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively demystified inclusivity by highlighting its fundamental principles, the crucial role of cultural sensitivity and power dynamics, and the need to move beyond operational EDI towards strategic and transformational approaches that address systemic barriers and foster a true sense of belonging within research and work environments. The presentation encourages critical self-reflection and proactive steps towards building more inclusive cultures.
 
 ### Local Outbreaks
+
+```{=typst}
+#lorem(600)
+```
+
 ### NTDs
+
+```{=typst}
+#lorem(600)
+```
+
 ### One Health
+
+```{=typst}
+#lorem(600)
+```
+
 ### Disease Surveillance
+
+```{=typst}
+#lorem(600)
+```
+
 ### Designing Outbreak Analytics Course
+
+```{=typst}
+#lorem(600)
+```
