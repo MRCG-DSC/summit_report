@@ -16,8 +16,8 @@
   date: none,
   abstract: none,
   cols: 1,
-  margin: (x: 1.25in, y: 1.25in),
-  paper: "us-letter",
+  margin: (x: 2.5cm, y: 2.5cm),
+  paper: "a4",
   lang: "en",
   region: "US",
   font: (),
@@ -34,8 +34,8 @@
 
   set page(
     paper: paper,
-    margin: (x: 2.5cm, y: 2.5cm),
-    header-ascent: -2cm,
+    margin: margin,
+    // header-ascent: -2cm,
     // header: rect(fill: aqua.lighten(50%))[ #place(top + left)[
     // #image("wave.svg", width: 100%, height: 100%)]],
     // footer: [ #place(bottom + right)[
