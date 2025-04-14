@@ -12,6 +12,8 @@
 
 #let article(
   title: none,
+  subtitle: none,
+  when: none,
   institutions: (
     (
       logo: "mrcg.svg"
@@ -32,7 +34,7 @@
   date: none,
   abstract: none,
   cols: 1,
-  margin: (x: 2.5cm, y: 5cm),
+  margin: (x: 1.5cm, y: 5cm),
   paper: "a4",
   lang: "en",
   region: "US",
@@ -49,9 +51,15 @@
   )
 
   set page(
+    header: context {
+    if counter(page).get().first() > 1 [
+        #align(right + horizon)[*#subtitle*]
+        #align(right + horizon)[ #when]
+      ]
+    },
     paper: paper,
     margin: margin,
-    // header-ascent: -2cm,
+    header-ascent: 2cm,
     // header: rect(fill: aqua.lighten(50%))[ #place(top + left)[
     // #image("wave.svg", width: 100%, height: 100%)]],
     // footer: [ #place(bottom + right)[
@@ -76,12 +84,22 @@
            size: fontsize)
   set heading(numbering: sectionnumbering)
 
+  // if subtitle != none {
+  //   align(top + horizon)[#block(inset: 1em)[
+  //     #text(
+  //       font: "Clash Display Variable",
+  //       weight: "bold", 
+  //       size: 1.2em,
+  //       )[#subtitletitle]
+  //   ]]
+  // }
+
   if title != none {
     align(center + horizon)[#block(inset: 1em)[
       #text(
         font: "Clash Display Variable",
         weight: "bold", 
-        size: 2.2em,
+        size: 2.5em,
         fill: rgb("#106BA0")
         )[#title]
     ]]

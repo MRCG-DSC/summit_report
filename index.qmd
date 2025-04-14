@@ -4,6 +4,8 @@ fontsize: 12pt
 format: 
   summit-typst:
     papersize: a4
+    subtitle: Summit 2024, Gambia
+    when: December 2-6
     # margin:
     #   x: 3cm
     #   y: 3cm
