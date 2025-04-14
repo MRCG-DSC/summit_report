@@ -14,29 +14,19 @@
   title: none,
   institutions: (
     (
-      name: "Bubacarr Bah",
-      affiliation: "MRCG",
-      email: "bubacarr.bah1@lshtm.ac.uk",
+      logo: "mrcg.svg"
     ),
     (
-      name: "Adam Kucharski",
-      affiliation: "LSHTM",
-      email: "adam.kucharski@lshtm.ac.uk",
+      logo: "lshtm.png"
     ),
     (
-      name: "Sebastian Funk",
-      affiliation: "LSHTM",
-      email: "sebastian.funk@lshtm.ac.uk",
+      logo: "andes.png"
     ),
     (
-      name: "Zulma M. Cucunubá",
-      affiliation: "Pontificia Universidad Javeriana",
-      email: "zulma@lshtm.ac.uk",
+      logo: "javeriana.png"
     ),
     (
-      name: "Natalia Niño-Machado",
-      affiliation: "Universidad de los Andes",
-      email: "natalia@lshtm.ac.uk",
+      logo: "data_org.png"
     ),
   ),
   date: none,
@@ -93,23 +83,22 @@
         weight: "bold", size: 2.2em
         )[#title]
     ]]
-    pagebreak()
   }
 
   if institutions != none {
+    v(50%)
     let count = institutions.len()
-    let ncols = calc.min(count, 3)
+    let ncols = calc.min(count, 5)
     grid(
       columns: (1fr,) * ncols,
       row-gutter: 1.5em,
-      ..institutions.map(institiution =>
+      ..institutions.map(institution =>
           align(center)[
-            #institiution.name \
-            #institiution.affiliation \
-            #institiution.email
+            #image(institution.logo, width: 5em, height: 5em, fit: "contain")
           ]
       )
     )
+    pagebreak()
   }
 
   if date != none {
