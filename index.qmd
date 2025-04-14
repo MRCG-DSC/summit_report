@@ -17,11 +17,11 @@ format:
 
 ## Sessions
 ### Pre Summit Training
-### G. Lessons Learnt and Gaps
-### G. Sustainability of Epidemics Analytics Tools
-### E. Inclusivity within Epiverse-TRACE Tools
-### G. Local Outbreaks
-### G. NTDs
-### G. One Health
-### G. Disease Surveillance
-### G. Designing Outbreak Analytics Course
+### Lessons Learnt and Gaps
+### Sustainability of Epidemics Analytics Tools
+### Inclusivity within Epiverse-TRACE Tools
+### Local Outbreaks
+### NTDs
+### One Health
+### Disease Surveillance
+### Designing Outbreak Analytics Course
