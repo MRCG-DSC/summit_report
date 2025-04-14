@@ -53,16 +53,6 @@
     // numbering: "1",
   )
 
-
-  // rect(fill: aqua.lighten(60%))
-
-
-
-  // set page(
-  //   paper: paper,
-  //   margin: margin,
-  //   numbering: "1",
-  // )
   set par(justify: true)
   set text(lang: lang,
            region: region,
