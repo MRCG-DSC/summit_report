@@ -10,6 +10,12 @@
 //   - https://typst.app/docs/tutorial/making-a-template/
 //   - https://github.com/typst/templates
 
+#let parse-date(date) = {
+  let date = date.replace("\\", "")
+  let date = str(date).split("-").map(int)
+  datetime(year: date.at(0), month: date.at(1), day: date.at(2))
+}
+
 #let article(
   title: none,
   subtitle: none,
@@ -39,7 +45,7 @@
   lang: "en",
   region: "US",
   font: (),
-  fontsize: 12pt,
+  fontsize: 14pt,
   sectionnumbering: none,
   toc: false,
   doc,
@@ -53,15 +59,23 @@
   set page(
     header: context {
     if counter(page).get().first() > 1 [
-        #align(right + horizon)[*#subtitle*]
-        #align(right + horizon)[ #when]
+        #let start = parse-date("2024-11-26")
+        #let duration = duration(days: 5)
+        #let end = start + duration
+      #align(right + horizon)[#block(inset: -1.5em)[
+      #text(
+        font: "Clash Display Variable",
+        size: 0.9em,
+        fill: rgb("#106BA0")
+        )[#subtitle \ 
+          #start.display("[day]") - #end.display("[day]  [month repr:long]")
+         ]
+    ]]
       ]
     },
     paper: paper,
     margin: margin,
     header-ascent: 2cm,
-    // header: rect(fill: aqua.lighten(50%))[ #place(top + left)[
-    // #image("wave.svg", width: 100%, height: 100%)]],
     // footer: [ #place(bottom + right)[
     //   #rotate(180deg, 
     //   image("wave.svg", width: 70%, height: 100%))
