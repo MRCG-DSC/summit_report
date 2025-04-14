@@ -26,11 +26,43 @@
   toc: false,
   doc,
 ) = {
+  set rect(
+    width: 100%,
+    height: 100%,
+    inset: 4pt,
+  )
+
   set page(
     paper: paper,
-    margin: margin,
-    numbering: "1",
+    margin: (x: 2.5cm, y: 2.5cm),
+    header-ascent: -2cm,
+    // header: rect(fill: aqua.lighten(50%))[ #place(top + left)[
+    // #image("wave.svg", width: 100%, height: 100%)]],
+    // footer: [ #place(bottom + right)[
+    //   #rotate(180deg, 
+    //   image("wave.svg", width: 70%, height: 100%))
+    // ]],
+    background: rect(fill: aqua.darken(50%))[ 
+      #place(top + left)[
+        #image("wave.svg", width: 70%, height: 20%)]
+      #place(bottom + right)[
+        #rotate(180deg, image("wave.svg", width: 70%, height: 20%))
+    ]
+    ],
+    // number-align: center,
+    // numbering: "1",
   )
+
+
+  // rect(fill: aqua.lighten(60%))
+
+
+
+  // set page(
+  //   paper: paper,
+  //   margin: margin,
+  //   numbering: "1",
+  // )
   set par(justify: true)
   set text(lang: lang,
            region: region,
