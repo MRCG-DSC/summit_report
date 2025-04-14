@@ -86,9 +86,13 @@
   }
 
   if institutions != none {
-    v(50%)
+    v(3%)
+    align(center)[
+            #image("logo.svg", width: 30em, height: 30em, fit: "contain")
+          ]
     let count = institutions.len()
     let ncols = calc.min(count, 5)
+    v(12%)
     grid(
       columns: (1fr,) * ncols,
       row-gutter: 1.5em,
