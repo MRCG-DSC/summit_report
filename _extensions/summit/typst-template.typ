@@ -12,7 +12,33 @@
 
 #let article(
   title: none,
-  authors: none,
+  institutions: (
+    (
+      name: "Bubacarr Bah",
+      affiliation: "MRCG",
+      email: "bubacarr.bah1@lshtm.ac.uk",
+    ),
+    (
+      name: "Adam Kucharski",
+      affiliation: "LSHTM",
+      email: "adam.kucharski@lshtm.ac.uk",
+    ),
+    (
+      name: "Sebastian Funk",
+      affiliation: "LSHTM",
+      email: "sebastian.funk@lshtm.ac.uk",
+    ),
+    (
+      name: "Zulma M. Cucunubá",
+      affiliation: "Pontificia Universidad Javeriana",
+      email: "zulma@lshtm.ac.uk",
+    ),
+    (
+      name: "Natalia Niño-Machado",
+      affiliation: "Universidad de los Andes",
+      email: "natalia@lshtm.ac.uk",
+    ),
+  ),
   date: none,
   abstract: none,
   cols: 1,
@@ -70,17 +96,17 @@
     pagebreak()
   }
 
-  if authors != none {
-    let count = authors.len()
+  if institutions != none {
+    let count = institutions.len()
     let ncols = calc.min(count, 3)
     grid(
       columns: (1fr,) * ncols,
       row-gutter: 1.5em,
-      ..authors.map(author =>
+      ..institutions.map(institiution =>
           align(center)[
-            #author.name \
-            #author.affiliation \
-            #author.email
+            #institiution.name \
+            #institiution.affiliation \
+            #institiution.email
           ]
       )
     )
