@@ -120,6 +120,9 @@
     }
   }
 
+  show figure: set block(breakable: true)
+
+
   set par(justify: true)
   set text(lang: lang,
            region: region,

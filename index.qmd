@@ -74,9 +74,49 @@ This week-long in-person training provides a practical introduction to outbreak 
 
 ## Participants
 
-```{=typst}
-#lorem(600)
-```
+
+| Name     | Age | City       |
+|----------|-----|------------|
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+| Alice    |  30 | New York   |
+| Bob      |  25 | San Francisco |
+| Charlie  |  35 | London     |
+
 
 ## Sessions
 ### Lessons Learnt and Gaps
