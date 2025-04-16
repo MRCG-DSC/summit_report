@@ -6,7 +6,7 @@ institutions:
   - logo: mrcg.svg
 format: 
   summit-typst:
-    keep-typ: true
+    # keep-typ: true
     papersize: a4
     subtitle: Summit 2024, Gambia
     when: December 2-6
