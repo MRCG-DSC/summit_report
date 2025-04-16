@@ -119,6 +119,51 @@ This week-long in-person training provides a practical introduction to outbreak 
 
 
 ## Sessions
+
+```{r}
+#| label: tbl-example
+#| tbl-cap: "Example"
+#| tbl-subcap: 
+#|   - "Cars"
+#|   - "Pressure"
+#| layout-ncol: 2
+
+library(knitr)
+kable(head(cars))
+kable(head(pressure))
+```
+
+```{r}
+#| tbl-cap: "Cars"
+#| tbl-colwidths: [60,40]
+#| tbl-cap-location: margin
+
+library(knitr)
+kable(head(cars))
+```
+
+::: {#tbl-panel layout-ncol=2}
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: First Table {#tbl-first}
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+
+: Second Table {#tbl-second}
+
+Main Caption
+:::
+
+See @tbl-panel for details, especially @tbl-second.
+
 ### Lessons Learnt and Gaps
 
 ```{=typst}
