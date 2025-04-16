@@ -76,10 +76,31 @@
     paper: paper,
     margin: margin,
     header-ascent: 2cm,
-    // footer: [ #place(bottom + right)[
-    //   #rotate(180deg, 
-    //   image("wave.svg", width: 70%, height: 100%))
-    // ]],
+    footer: context {
+      [
+        #circle(
+          fill: rgb("#F04A4C"),
+          radius: 4em,
+          )[
+            #text(
+            font: "Clash Display Variable",
+            size: 4em,
+            fill: white,
+            )[
+              #set align(center + horizon)
+              #counter(page).display( "1")
+            ]
+        ]
+        // this will create R hex sticker like hexagon
+        // #rotate(30deg,
+        //   polygon.regular(
+        //     vertices: 6,
+        //     fill: blue,
+        //     size: 4em,
+        //   )
+        // )
+      ]
+    },
     background: rect(fill: rgb("#888"))[ 
       #place(top + left)[
         #image("wave.svg", width: 70%, height: 20%)]
@@ -87,8 +108,6 @@
         #rotate(180deg, image("wave.svg", width: 70%, height: 20%))
     ]
     ],
-    // number-align: center,
-    // numbering: "1",
   )
 
   set par(justify: true)
