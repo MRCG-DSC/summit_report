@@ -2,6 +2,8 @@
 title: "Strengthening Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness"
 fontsize: 12pt
 date: 2024-12-02
+institutions:
+  - logo: mrcg.svg
 format: 
   summit-typst:
     keep-typ: true
