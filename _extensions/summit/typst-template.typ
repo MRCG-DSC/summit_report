@@ -110,6 +110,16 @@
     ],
   )
 
+  show link: it => {
+    set text(blue)
+    if type(it.dest) != str {
+      it
+    }
+    else {
+      underline(it)
+    }
+  }
+
   set par(justify: true)
   set text(lang: lang,
            region: region,

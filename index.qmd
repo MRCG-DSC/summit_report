@@ -25,7 +25,9 @@ Powered by Data.org, the Epiverse-TRACE project has made substantial progress to
 
 Every year, the Epiverse-TRACE team members, along with invited stakeholders from WHO, Data.org, and various healthcare organizations, convene to discuss progress, evaluate deliverables, and plan future activities. The third Epiverse-TRACE annual summit will be held at the MRC Unit in Fajara, The Gambia from December 2 to 6, 2024, under the theme: Strengthening Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness.
 
-The organizing committees of this event, composed of members from the different Epiverse teams, have developed the summit’s program to ensure the success of the event. This includes a pre-summit training workshop scheduled to be held a week before the summit (25 - 29 November 2024). The training will be conducted by our team of Research Fellows (RFs), supported by Research Software Engineers (RSEs). Participants will learn how to use our tools within an outbreak analysis workflow.
+The organizing committees of this event, composed of members from the different Epiverse teams, have developed the summit’s program to ensure the success of the event. This includes a pre-summit training workshop scheduled to be held a week before the summit (25 - 29 November 2024). The training will be conducted by our team of Research Fellows (RFs), supported by Research Software Engineers (RSEs). Participants will learn how to use our tools within an outbreak analysis workflow. 
+
+[Data.org](https://data.org)
 
 :::
 
