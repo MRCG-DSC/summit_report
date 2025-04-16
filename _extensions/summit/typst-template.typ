@@ -77,10 +77,29 @@
     margin: margin,
     header-ascent: 2cm,
     footer: context {
+      // box(
+      //   rotate(30deg,
+      //     polygon.regular(
+      //       vertices: 6,
+      //       fill: rgb("#F04A4C"),
+      //       size: 4em,
+      //     )
+      //   )
+      // + place(dx: 1.5em, dy: -2.5em, text(
+      //   font: "Clash Display Variable",
+      //   size: 2em, 
+      //   fill: white, 
+      //   [
+      //     #set align(center + horizon)
+      //     #counter(page).display( "1")
+      //   ]))
+      // )
+
       [
         #circle(
-          fill: rgb("#F04A4C"),
-          radius: 4em,
+          fill: none, //rgb("#F04A4C"),
+          stroke: none,
+          radius: 3.7em,
           )[
             #text(
             font: "Clash Display Variable",
@@ -91,14 +110,6 @@
               #counter(page).display( "1")
             ]
         ]
-        // this will create R hex sticker like hexagon
-        // #rotate(30deg,
-        //   polygon.regular(
-        //     vertices: 6,
-        //     fill: blue,
-        //     size: 4em,
-        //   )
-        // )
       ]
     },
     background: rect(fill: rgb("#888"))[ 
