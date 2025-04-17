@@ -37,145 +37,19 @@ The organizing committees of this event, composed of members from the different 
 #pagebreak()
 ``` -->
 
-## Pre Summit Training
-
-This week-long in-person training provides a practical introduction to outbreak data analysis using R packages developed by the Epiverse-TRACE initiative.
-
-**Course Content**
-
-*Day 1*
-
-- Introduction to outbreak analytics and “Outbreak Data Challenges”.
-- Why use R packages for epidemic analytics?
-- How to manipulate data and perform visualization in R?
-
-*Day 2*
-
-- How do I simulate disease spread using a mathematical model?
-- How do I investigate the effect of interventions on disease trajectories?
-
-*Day 3*
-
-- How to clean and standardize case data?
-- How to aggregate and visualize case data?
-- How can I ensure the above tasks are performed in an efficient and reproducible way?
-
-*Day 4*
-
-- What are the delay distributions and what is their usage in outbreak analytics?
-- How to access delay distributions from a literature search database?
-- How can I estimate key transmission metrics from a time series of case data?
-- How do I account for incomplete reporting in forecasts?
-
-*Day 5*
-
-- How to estimate the case fatality ratio (CFR) and adjust for common biases?
-- How can we estimate individual-level variation in transmission (i.e. superspreading potential)?
-- How can we simulate transmission chains based on infection characteristics?
-
-
-## Participants
-
-
-| Name     | Age | City       |
-|----------|-----|------------|
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-| Alice    |  30 | New York   |
-| Bob      |  25 | San Francisco |
-| Charlie  |  35 | London     |
-
-
-## Sessions
-
-```{r}
-#| label: tbl-example
-#| tbl-cap: "Example"
-#| tbl-subcap: 
-#|   - "Cars"
-#|   - "Pressure"
-#| layout-ncol: 2
-
-library(knitr)
-kable(head(cars))
-kable(head(pressure))
-```
-
-```{r}
-#| tbl-cap: "Cars"
-#| tbl-colwidths: [60,40]
-#| tbl-cap-location: margin
-
-library(knitr)
-kable(head(cars))
-```
-
-::: {#tbl-panel layout-ncol=2}
-| Col1 | Col2 | Col3 |
-|------|------|------|
-| A    | B    | C    |
-| E    | F    | G    |
-| A    | G    | G    |
-
-: First Table {#tbl-first}
-
-| Col1 | Col2 | Col3 |
-|------|------|------|
-| A    | B    | C    |
-| E    | F    | G    |
-| A    | G    | G    |
-
-: Second Table {#tbl-second}
-
-Main Caption
-:::
-
-See @tbl-panel for details, especially @tbl-second.
-
-### Lessons Learnt and Gaps
-
 ```{=typst}
-#lorem(600)
+= Pre Summit Training <presummit>
+#lorem(60)
 ```
+
+
+
+
 
 ### Sustainability of Epidemics Analytics Tools
 
 ```{=typst}
-#lorem(600)
+#lorem(60)
 ```
 
 ### Inclusivity within Epiverse-TRACE Tools
@@ -185,29 +59,101 @@ Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively demystif
 ### Local Outbreaks
 
 ```{=typst}
-#lorem(600)
+#lorem(60)
 ```
 
 ### NTDs
 
 ```{=typst}
-#lorem(600)
+#lorem(60)
 ```
 
 ### One Health
 
 ```{=typst}
-#lorem(600)
+#lorem(60)
 ```
 
 ### Disease Surveillance
 
 ```{=typst}
-#lorem(600)
+#lorem(60)
 ```
 
-### Designing Outbreak Analytics Course
+### Designing Outbreak Analytics Course 
 
 ```{=typst}
-#lorem(600)
+
+Training is a cornerstone of the Epiverse-TRACE project, ensuring that our advanced analytics packages are recognized and adopted by a broader community. As the project enters its second phase, the focus shifts towards developing and delivering structured courses. Training within Epiverse-TRACE is facilitated through a variety of resources, including showcases, case-studies, how-to guides,  tutorials, and the Epi Training Kit (#link("https://epiverse-trace.github.io/epi-training-kit/index-EN.html")[EpiTkit]).
+
+During the final day of the summit, participants shared insights on designing an in-person data-centered outbreak analytics course aimed at training and teaching outbreak analysis as well as on the translation and adaptation of the Epi Training Kit materials for  African context. The discussion also reflected on lessons learned from previous training sessions, identified existing gaps, and explored strategies to address them.
+In this session, the training team presented the pre-summit training report along with its feedback (see #link("https://zenodo.org/records/14946723")[Pre-summit Training report]).
+
+ We also discussed strategies for implementing training in the project's second phase, including the EpiTkit modules as part of comprehensive training in TRACE-LAC for Latin America and the LSHTM-MRCG plans for delivering training courses in Africa. 
+The discussion centered on four key aspects of training: content, audience, cultural adaptation, and assessment. Participants, divided into five groups, responded to targeted questions within each aspect. Their insights were collected and summarized in the following table.
+
 ```
+::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
+## Contents
+
+1. Are there any emerging infectious diseases or health challenges in Africa that you think should be prioritized in the content?  Can you provide an example of a specific case that should be included?
+
+  Africa faces a range of emerging and re-emerging infectious diseases, vector-borne diseases, and non-communicable health challenges. Key examples include Ebola, Mpox, HIV, Malaria, Chikungunya, Dengue, Marburg virus disease, and cervical cancer caused by HPV.
+
+2. What do you think is the best structure for tutorial content to make it clear, engaging, and easy to follow? 
+
+  The course should be designed as an integrated, flexible, and adaptable training program, allowing for self-paced learning while remaining easy to follow.
+:::
+
+::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
+## Audience
+
+1. How can we ensure that the material is inclusive and accessible to underrepresented groups in the field, such as women, rural professionals, or individuals from different cultures or backgrounds?
+ 
+  - Encourage continuous feedback by allowing participants to share their insights in person or virtually.
+  - Collect anonymous feedback through surveys, crash reports, and real-time comments.
+
+2. What strategies do you recommend for effectively reaching and engaging the target audience, especially in diverse African contexts?
+   - Provide multiple feedback channels, including discussion forums (e.g., Google Forms, Microsoft Forms).
+   - Designate focus groups to gather perspectives from underrepresented audiences.
+   - Engage diverse participants through anecdotal insights to ensure varied experiences are considered.
+   - Engage with local leaders and prioritize their needs and areas of improvement.
+
+:::
+
+::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
+## Cultural Adaptation
+
+1. What cultural considerations should we keep in mind to make the materials relevant and relatable for audiences in different African countries?
+
+ 
+  - Tailor course materials to each training session rather than using a one-size-fits-all approach.
+  - Recognize regional and national differences—avoid assuming all African countries have the same cultural, social, or educational contexts.
+  - Respect dress codes by considering cultural norms for both men and women.
+  - Acknowledge religious observances such as Ramadan and Christmas, ensuring that training schedules and activities remain inclusive and considerate.
+
+2. How can we ensure that the examples or case studies used in the materials avoid being stigmatizing or insensitive, particularly regarding cultural or religious considerations?
+
+   - Incorporate cultural training to raise awareness of diverse perspectives
+Use inclusive language and avoid topics that may reinforce ableism, sexism, classism, or transphobia.
+   - Establish a clear code of conduct that upholds respect and inclusivity in all course materials.
+
+:::
+
+::: {.block fill="luma(610)" inset="16pt" radius="20pt"}
+## Assessment
+
+1. How can we gather feedback effectively from learners to continuously improve the material?
+
+  - Conduct continuous evaluations and surveys to gather structured feedback.
+  - Incorporate interactive games to engage learners and assess their understanding.
+  - Use practical exercises where participants apply their knowledge to real-world scenarios, reflecting on what they can do with what they’ve learned.
+
+
+2. What methods do you recommend for evaluating the impact of these materials on knowledge and skills development?
+
+   - Maintain continuous engagement with stakeholders and foster communities of interest.
+   - Facilitate long-term discussions through platforms like GitHub issues to track feedback and improvements.
+   - Organize group discussions to gather qualitative insights on learners' experiences and skill development.
+
+:::
