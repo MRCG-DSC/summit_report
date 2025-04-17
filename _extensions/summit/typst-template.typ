@@ -28,7 +28,7 @@
       logo: "lshtm.png"
     ),
     (
-      logo: "andes.png"
+      logo: "andes_black.png"
     ),
     (
       logo: "javeriana.png"
