@@ -37,9 +37,14 @@ The organizing committees of this event, composed of members from the different 
 #pagebreak()
 ``` -->
 
+### Pre Summit Training 
 ```{=typst}
-= Pre Summit Training <presummit>
-#lorem(60)
+Prior to commence the summit, we have conducted a week-long pre-summit training course on "Outbreak Analytics and Applied Modelling with R" at MRCG, Banjul, The Gambia. The training program was designed to provide participants with practical skills in outbreak data analysis using specialized R packages. This training was facilitated by Epiverse-TRACE members from MRCG, LSHTM, and TRACE-LAC.
+
+#image("./presumit_picture.jpg")
+
+Read the full report about this course is made  available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
+
 ```
 
 
