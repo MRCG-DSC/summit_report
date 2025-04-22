@@ -65,6 +65,8 @@ The afternoon sessions of the summit consisted in multiple discussions between t
 
 Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively demystified inclusivity by highlighting its fundamental principles, the crucial role of cultural sensitivity and power dynamics, and the need to move beyond operational EDI towards strategic and transformational approaches that address systemic barriers and foster a true sense of belonging within research and work environments. The presentation encourages critical self-reflection and proactive steps towards building more inclusive cultures.
 
+### Team Building
+
 ```{=typst}
 
 Summary
