@@ -65,13 +65,58 @@ The afternoon sessions of the summit consisted in multiple discussions between t
 
 Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively demystified inclusivity by highlighting its fundamental principles, the crucial role of cultural sensitivity and power dynamics, and the need to move beyond operational EDI towards strategic and transformational approaches that address systemic barriers and foster a true sense of belonging within research and work environments. The presentation encourages critical self-reflection and proactive steps towards building more inclusive cultures.
 
-### Local Outbreaks
-
 ```{=typst}
-#lorem(60)
+
+Summary
+
+The thrill of the Kartong Snake Farm to the rhythm of paddles on the River Gambia, our team-building journey blended adventure, culture, and collaboration. This report highlights how these experiences strengthened team members' trust, communication, and camaraderie.
+
+OBJECTIVES OF THE TEAM BUILDING
+
+Build resilience through shared challenges.
+
+Strengthen team connections and foster collaboration.
+
+Encourage trust and effective communication.
+
+
+
+ACTIVIES
+
+Conference Dinner: An Evening of Connection
+
+The conference dinner set the tone for the summit, with teams sharing stories over traditional dishes like Benachin. Informal conversations sparked ideas that carried into the days ahead.
+
+Kartong Snake Farm Visit: Facing Fears & Building Trust
+
+At the Kartong Snake Farm, teams confronted fears and embraced curiosity. Handling snakes like pythons became a metaphor for tackling workplace challenges head-on.
+
+Boat Ride & Tanji Bird Reserve: A Journey of Discovery
+
+Where the river meets the ocean, our boat ride to the river-ocean confluence symbolised unity in diversity. At the Tanji Bird Reserve, teams observed over 45 bird species, drawing parallels between ecological harmony and workplace collaboration.
+
+Kayaking: Paddling in Sync
+
+The summit culminated with a 15km kayaking challenge on the River Gambia. Coordinating strokes and maintaining communication mirrored the teamwork required under workplace pressure.
+
+
+OUTCOMES
+
+Increased Collaboration: Strengthened interpersonal relationships and teamwork.
+
+Enhanced Trust: Facing challenges together improved confidence and trust among team members.
+
+Improved Communication: Effective coordination during activities reinforced the importance of clear communication in the workplace.
+
+CLOSING
+
+This journey was just the beginning. Let’s keep exploring, learning, and growing together. The lessons gained from this experience will continue to inspire teamwork and collaboration in our workplace.
+
+
+
 ```
 
-### NTDs
+### NTDsgit
 
 ```{=typst}
 #lorem(60)
