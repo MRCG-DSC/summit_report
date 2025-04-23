@@ -22,19 +22,19 @@
   when: none,
   institutions: (
     (
-      logo: "mrcg.svg"
+      logo: "images/mrcg.svg"
     ),
     (
-      logo: "lshtm.png"
+      logo: "images/lshtm.png"
     ),
     (
-      logo: "andes_black.png"
+      logo: "images/andes_black.png"
     ),
     (
-      logo: "javeriana.png"
+      logo: "images/javeriana.png"
     ),
     (
-      logo: "data_org.png"
+      logo: "images/data_org.png"
     ),
   ),
   date: none,
@@ -114,9 +114,9 @@
     },
     background: rect(fill: rgb("#888"))[ 
       #place(top + left)[
-        #image("wave.svg", width: 70%, height: 20%)]
+        #image("images/wave.svg", width: 70%, height: 20%)]
       #place(bottom + right)[
-        #rotate(180deg, image("wave.svg", width: 70%, height: 20%))
+        #rotate(180deg, image("images/wave.svg", width: 70%, height: 20%))
     ]
     ],
   )
