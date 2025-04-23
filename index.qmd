@@ -43,7 +43,7 @@ Prior to commence the summit, we have conducted a week-long pre-summit training 
 
 #image("./presumit_picture.jpg")
 
-The full report about this course is made  available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
+The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
 
 ```
 
