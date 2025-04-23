@@ -41,7 +41,7 @@ The organizing committees of this event, composed of members from the different 
 ```{=typst}
 Prior to commence the summit, we have conducted a week-long pre-summit training course on "Outbreak Analytics and Applied Modelling with R" at MRCG, Banjul, The Gambia. The training program was designed to provide participants with practical skills in outbreak data analysis using specialized R packages. This training was facilitated by Epiverse-TRACE members from MRCG, LSHTM, and TRACE-LAC.
 
-#image("./presumit_picture.jpg")
+#image("/images/presumit_picture.jpg")
 
 The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
 
