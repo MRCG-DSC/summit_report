@@ -112,7 +112,7 @@
         ]
       ]
     },
-    background: rect(fill: rgb("#888"))[ 
+    background: rect(fill: rgb("#FFF"))[ 
       #place(top + left)[
         #image("images/wave.svg", width: 70%, height: 20%)]
       #place(bottom + right)[
@@ -180,7 +180,7 @@
     #set text(
       font: "Clash Display Variable",
       size: 1.8em,
-      fill: rgb("#AEC800"),
+      fill: rgb("#071E2D"),
     )
     #block(it.body)
   ]
@@ -188,7 +188,7 @@
     #set text(
       font: "Clash Display Variable",
       size: 1.5em,
-      fill: rgb("#AEC800"),
+      fill: rgb("#071E2D"),
     )
     #block(it.body)
   ]
@@ -197,7 +197,7 @@
     #set text(
       font: "Clash Display Variable",
       size: 1.3em,
-      fill: rgb("#DEFF00"),
+      fill: rgb("#071E2D"),
       )
     #block(it.body)
   ]
