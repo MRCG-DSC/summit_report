@@ -93,7 +93,6 @@ The full report about this course is available on zenodo: #link("https://zenodo.
 ```{=typst}
 // We use `rect` to emphasize the
 // area of cells.
->>>>>>> 09cfafa (update openning ceremony section)
 
 #set rect(
   inset: 8pt,
@@ -341,7 +340,7 @@ LSHTM
 Pontificia Universidad Javeriana 
 1. Andrés Moreno Barbosa
 2. Laura Gomez-Bermeo
-3. Zulma
+3. Zulma M. Cucunubá
 
 Universidad de los Andes 
 1. Maria Camila Tavera Cifuentes
@@ -351,7 +350,8 @@ Data.org
 1. Chris Hartgerink
 2. Diana Fajardo Pulido
 3. Maguette Ndong 
-4. paul 
+4. Paul Korir
+5. Uyi Steward
 
 WHO
 1. Finlay Campbell
