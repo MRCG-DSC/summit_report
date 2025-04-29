@@ -16,24 +16,53 @@ format:
     #   y: 3cm
     # mainfont: "Clash Display Variable"
     # font-paths: fonts
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 
 # Introduction
 
-::: {.block}
+::: block
 <!-- ::: {.block fill="luma(230)" inset="8pt" radius="4pt"} -->
 
-Powered by Data.org, the Epiverse-TRACE project has made substantial progress toward producing analytics tools aimed at addressing the most critical questions during epidemics. Currently, up to nine (9) Epiverse-TRACE packages are available on CRAN, with about twenty (20) more under active development. This reflects the results of two years of joint efforts between team members and our user communities.
+Powered by Data.org, the Epiverse-TRACE project has made substantial
+progress toward producing analytics tools aimed at addressing the most
+critical questions during epidemics. Currently, up to nine (9)
+Epiverse-TRACE packages are available on CRAN, with about twenty (20)
+more under active development. This reflects the results of two years of
+joint efforts between team members and our user communities.
 
-Every year, the Epiverse-TRACE team members, along with invited stakeholders from WHO, Data.org, and various healthcare organizations, convene to discuss progress, evaluate deliverables, and plan future activities. The third Epiverse-TRACE annual summit will be held at the MRC Unit in Fajara, The Gambia from December 2 to 6, 2024, under the theme: Strengthening Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness.
+Every year, the Epiverse-TRACE team members, along with invited
+stakeholders from WHO, Data.org, and various healthcare organizations,
+convene to discuss progress, evaluate deliverables, and plan future
+activities. The third Epiverse-TRACE annual summit will be held at the
+MRC Unit in Fajara, The Gambia from December 2 to 6, 2024, under the
+theme: Strengthening Sustainable and Inclusive Analytics Ecosystem for
+Epidemic Preparedness.
 
-The organizing committees of this event, composed of members from the different Epiverse teams, have developed the summit’s program to ensure the success of the event. This includes a pre-summit training workshop scheduled to be held a week before the summit (25 - 29 November 2024). The training will be conducted by our team of Research Fellows (RFs), supported by Research Software Engineers (RSEs). Participants will learn how to use our tools within an outbreak analysis workflow. 
+The organizing committees of this event, composed of members from the
+different Epiverse teams, have developed the summit’s program to ensure
+the success of the event. This includes a pre-summit training workshop
+scheduled to be held a week before the summit (25 - 29 November 2024).
+The training will be conducted by our team of Research Fellows (RFs),
+supported by Research Software Engineers (RSEs). Participants will learn
+how to use our tools within an outbreak analysis workflow.
 
 [Data.org](https://data.org)
-
 :::
 
+<<<<<<< HEAD
+=======
+````{=html}
+<!-- ```{=typst}
+#pagebreak()
+``` -->
+````
+
+### Pre Summit Training
+>>>>>>> main
 
 ```{=typst}
 #v(75pt, weak: true) 
@@ -47,6 +76,7 @@ The organizing committees of this event, composed of members from the different 
   width: auto
 )
 
+<<<<<<< HEAD
 #grid(
   columns: (1fr, 1fr),
   rows: (auto, 120pt),
@@ -68,8 +98,13 @@ The organizing committees of this event, composed of members from the different 
 )
 )
 
+=======
+The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
+>>>>>>> main
 ```
+## Openning Ceremony
 
+<<<<<<< HEAD
 
 
 
@@ -79,16 +114,54 @@ The third Epiverse Summit was held in Banjul from the 2nd to the 6th of December
 The discussions during the welcome ceremony at the Sir Dawda Kairaba Jawara International Conference Centre were centered around the importance of the Epiverse initiative and plans for its second phase. In his keynote address Dr. Ahmadou Lamin Samateh, the Honourable Minister of Health of The Gambia stated that “the development of analytics tools for pandemic preparedness and response is timely and essential.” He added that “the memories of the COVID-19 pandemic are still fresh, highlighting the need to be prepared for future pandemics with the right tools and processes”. According to Dr. Bubacarr Bah, Head of Data Science Cluster at MRCG at LSHTM and one of the Principal Investigator for the Epiverse-TRACE project, “this is a global initiative and it is about building open-source tools for analysis to transform the way we deliver data science for social good. Our main goal was to change how analytics tools are used in global infectious disease response, moving from ad-hoc approaches to integrated, generalisable and scalable community-driven software.” In their interventions, Uyi Stewart, Chief Data and Technology Officer and Maguette Ndong, Technical Program Manager at data.org provided details of the plans for the second phase of the project, while highlighting the important role of data.org in its implementation.
 The afternoon sessions of the summit consisted in multiple discussions between the research software developers (RSEs) and research fellows (RFs) around topics that are important for the sustainability of the project and building a cohesive team. A summary of main outcomes from these panels can be found here.
 
+=======
+The third Epiverse Summit was held in Banjul from the 2nd to the 6th of
+December under the theme “Strengthening a Sustainable and Inclusive
+Analytics Ecosystem for Epidemic Preparedness”. This annual flagship
+event brought together 44 participants, including 6 members of the
+LSHTM, 4 members from Universidad Javeriana and Universidad de los Andes
+in Colombia, 6 members from the MRC Unit The Gambia, and 5 members of
+data.org. The discussions during the welcome ceremony at the Sir Dawda
+Kairaba Jawara International Conference Centre were centered around the
+importance of the Epiverse initiative and plans for its second phase. In
+his keynote address Dr. Ahmadou Lamin Samateh, the Honourable Minister
+of Health of The Gambia stated that “the development of analytics tools
+for pandemic preparedness and response is timely and essential.” He
+added that “the memories of the COVID-19 pandemic are still fresh,
+highlighting the need to be prepared for future pandemics with the right
+tools and processes”. According to Dr. Bubacarr Bah, Head of Data
+Science Cluster at MRCG at LSHTM and one of the Principal Investigator
+for the Epiverse-TRACE project, “this is a global initiative and it is
+about building open-source tools for analysis to transform the way we
+deliver data science for social good. Our main goal was to change how
+analytics tools are used in global infectious disease response, moving
+from ad-hoc approaches to integrated, generalisable and scalable
+community-driven software.” In their interventions, Uyi Stewart, Chief
+Data and Technology Officer and Maguette Ndong, Technical Program
+Manager at data.org provided details of the plans for the second phase
+of the project, while highlighting the important role of data.org in its
+implementation. The afternoon sessions of the summit consisted in
+multiple discussions between the research software developers (RSEs) and
+research fellows (RFs) around topics that are important for the
+sustainability of the project and building a cohesive team. A summary of
+main outcomes from these panels can be found here.
+>>>>>>> main
 
 ### Sustainability of Epidemics Analytics Tools
 
 ```{=typst}
 #lorem(60)
 ```
-
 ### Inclusivity within Epiverse-TRACE Tools
 
-Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively demystified inclusivity by highlighting its fundamental principles, the crucial role of cultural sensitivity and power dynamics, and the need to move beyond operational EDI towards strategic and transformational approaches that address systemic barriers and foster a true sense of belonging within research and work environments. The presentation encourages critical self-reflection and proactive steps towards building more inclusive cultures.
+Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively
+demystified inclusivity by highlighting its fundamental principles, the
+crucial role of cultural sensitivity and power dynamics, and the need to
+move beyond operational EDI towards strategic and transformational
+approaches that address systemic barriers and foster a true sense of
+belonging within research and work environments. The presentation
+encourages critical self-reflection and proactive steps towards building
+more inclusive cultures.
 
 ### Team Building
 
@@ -138,30 +211,23 @@ Improved Communication: Effective coordination during activities reinforced the 
 CLOSING
 
 This journey was just the beginning. Let’s keep exploring, learning, and growing together. The lessons gained from this experience will continue to inspire teamwork and collaboration in our workplace.
-
-
-
 ```
-
 ### NTDsgit
 
 ```{=typst}
 #lorem(60)
 ```
-
 ### One Health
 
 ```{=typst}
 #lorem(60)
 ```
-
 ### Disease Surveillance
 
 ```{=typst}
 #lorem(60)
 ```
-
-### Designing Outbreak Analytics Course 
+### Designing Outbreak Analytics Course
 
 ```{=typst}
 
@@ -172,69 +238,139 @@ In this session, the training team presented the pre-summit training report alon
 
  We also discussed strategies for implementing training in the project's second phase, including the EpiTkit modules as part of comprehensive training in TRACE-LAC for Latin America and the LSHTM-MRCG plans for delivering training courses in Africa. 
 The discussion centered on four key aspects of training: content, audience, cultural adaptation, and assessment. Participants, divided into five groups, responded to targeted questions within each aspect. Their insights were collected and summarized in the following table.
-
 ```
 ::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
 ## Contents
 
-1. Are there any emerging infectious diseases or health challenges in Africa that you think should be prioritized in the content?  Can you provide an example of a specific case that should be included?
+1.  Are there any emerging infectious diseases or health challenges in
+    Africa that you think should be prioritized in the content? Can you
+    provide an example of a specific case that should be included?
 
-  Africa faces a range of emerging and re-emerging infectious diseases, vector-borne diseases, and non-communicable health challenges. Key examples include Ebola, Mpox, HIV, Malaria, Chikungunya, Dengue, Marburg virus disease, and cervical cancer caused by HPV.
+Africa faces a range of emerging and re-emerging infectious diseases,
+vector-borne diseases, and non-communicable health challenges. Key
+examples include Ebola, Mpox, HIV, Malaria, Chikungunya, Dengue, Marburg
+virus disease, and cervical cancer caused by HPV.
 
-2. What do you think is the best structure for tutorial content to make it clear, engaging, and easy to follow? 
+2.  What do you think is the best structure for tutorial content to make
+    it clear, engaging, and easy to follow?
 
-  The course should be designed as an integrated, flexible, and adaptable training program, allowing for self-paced learning while remaining easy to follow.
+The course should be designed as an integrated, flexible, and adaptable
+training program, allowing for self-paced learning while remaining easy
+to follow.
 :::
 
 ::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
 ## Audience
 
-1. How can we ensure that the material is inclusive and accessible to underrepresented groups in the field, such as women, rural professionals, or individuals from different cultures or backgrounds?
- 
-  - Encourage continuous feedback by allowing participants to share their insights in person or virtually.
-  - Collect anonymous feedback through surveys, crash reports, and real-time comments.
+1.  How can we ensure that the material is inclusive and accessible to
+    underrepresented groups in the field, such as women, rural
+    professionals, or individuals from different cultures or
+    backgrounds?
 
-2. What strategies do you recommend for effectively reaching and engaging the target audience, especially in diverse African contexts?
-   - Provide multiple feedback channels, including discussion forums (e.g., Google Forms, Microsoft Forms).
-   - Designate focus groups to gather perspectives from underrepresented audiences.
-   - Engage diverse participants through anecdotal insights to ensure varied experiences are considered.
-   - Engage with local leaders and prioritize their needs and areas of improvement.
+-   Encourage continuous feedback by allowing participants to share
+    their insights in person or virtually.
+-   Collect anonymous feedback through surveys, crash reports, and
+    real-time comments.
 
+2.  What strategies do you recommend for effectively reaching and
+    engaging the target audience, especially in diverse African
+    contexts?
+    -   Provide multiple feedback channels, including discussion forums
+        (e.g., Google Forms, Microsoft Forms).
+    -   Designate focus groups to gather perspectives from
+        underrepresented audiences.
+    -   Engage diverse participants through anecdotal insights to ensure
+        varied experiences are considered.
+    -   Engage with local leaders and prioritize their needs and areas
+        of improvement.
 :::
 
 ::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
 ## Cultural Adaptation
 
-1. What cultural considerations should we keep in mind to make the materials relevant and relatable for audiences in different African countries?
+1.  What cultural considerations should we keep in mind to make the
+    materials relevant and relatable for audiences in different African
+    countries?
 
- 
-  - Tailor course materials to each training session rather than using a one-size-fits-all approach.
-  - Recognize regional and national differences—avoid assuming all African countries have the same cultural, social, or educational contexts.
-  - Respect dress codes by considering cultural norms for both men and women.
-  - Acknowledge religious observances such as Ramadan and Christmas, ensuring that training schedules and activities remain inclusive and considerate.
+-   Tailor course materials to each training session rather than using a
+    one-size-fits-all approach.
+-   Recognize regional and national differences—avoid assuming all
+    African countries have the same cultural, social, or educational
+    contexts.
+-   Respect dress codes by considering cultural norms for both men and
+    women.
+-   Acknowledge religious observances such as Ramadan and Christmas,
+    ensuring that training schedules and activities remain inclusive and
+    considerate.
 
-2. How can we ensure that the examples or case studies used in the materials avoid being stigmatizing or insensitive, particularly regarding cultural or religious considerations?
+2.  How can we ensure that the examples or case studies used in the
+    materials avoid being stigmatizing or insensitive, particularly
+    regarding cultural or religious considerations?
 
-   - Incorporate cultural training to raise awareness of diverse perspectives
-Use inclusive language and avoid topics that may reinforce ableism, sexism, classism, or transphobia.
-   - Establish a clear code of conduct that upholds respect and inclusivity in all course materials.
-
+    -   Incorporate cultural training to raise awareness of diverse
+        perspectives Use inclusive language and avoid topics that may
+        reinforce ableism, sexism, classism, or transphobia.
+    -   Establish a clear code of conduct that upholds respect and
+        inclusivity in all course materials.
 :::
 
 ::: {.block fill="luma(610)" inset="16pt" radius="20pt"}
 ## Assessment
 
-1. How can we gather feedback effectively from learners to continuously improve the material?
+1.  How can we gather feedback effectively from learners to continuously
+    improve the material?
 
-  - Conduct continuous evaluations and surveys to gather structured feedback.
-  - Incorporate interactive games to engage learners and assess their understanding.
-  - Use practical exercises where participants apply their knowledge to real-world scenarios, reflecting on what they can do with what they’ve learned.
+-   Conduct continuous evaluations and surveys to gather structured
+    feedback.
+-   Incorporate interactive games to engage learners and assess their
+    understanding.
+-   Use practical exercises where participants apply their knowledge to
+    real-world scenarios, reflecting on what they can do with what
+    they’ve learned.
 
+2.  What methods do you recommend for evaluating the impact of these
+    materials on knowledge and skills development?
 
-2. What methods do you recommend for evaluating the impact of these materials on knowledge and skills development?
-
-   - Maintain continuous engagement with stakeholders and foster communities of interest.
-   - Facilitate long-term discussions through platforms like GitHub issues to track feedback and improvements.
-   - Organize group discussions to gather qualitative insights on learners' experiences and skill development.
-
+    -   Maintain continuous engagement with stakeholders and foster
+        communities of interest.
+    -   Facilitate long-term discussions through platforms like GitHub
+        issues to track feedback and improvements.
+    -   Organize group discussions to gather qualitative insights on
+        learners' experiences and skill development.
 :::
+
+MRCG 
+1. Bubacarr Bah 
+2. Nuredin Mohammed 
+3. Abdoelnaser Degoot 
+4. Bankole Ahadzie 
+5. Karim Mané 
+6. Atta Lowe 
+7. Kebba Secka
+
+LSHTM 
+1. Adolfo Valle Campos 
+2. Adam Kucharski
+3. Carmen Tamayo 
+4. James Azam
+5. Joshua Lambert
+6. Sebastian Funk
+
+Pontificia Universidad Javeriana 
+1. Andrés Moreno Barbosa
+2. Laura Gomez-Bermeo
+3. Zulma
+
+Universidad de los Andes 
+1. Maria Camila Tavera Cifuentes
+2. Natalia Nino
+
+Data.org
+1. Chris Hartgerink
+2. Diana Fajardo Pulido
+3. Maguette Ndong 
+4. paul 
+
+WHO
+1. Finlay Campbell
+
