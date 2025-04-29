@@ -26,28 +26,12 @@ editor:
 ::: block
 <!-- ::: {.block fill="luma(230)" inset="8pt" radius="4pt"} -->
 
-Powered by Data.org, the Epiverse-TRACE project has made substantial
-progress toward producing analytics tools aimed at addressing the most
-critical questions during epidemics. Currently, up to nine (9)
-Epiverse-TRACE packages are available on CRAN, with about twenty (20)
-more under active development. This reflects the results of two years of
-joint efforts between team members and our user communities.
+Powered by Data.org, the Epiverse-TRACE project has made substantial progress toward producing analytics tools aimed at addressing the most critical questions during epidemics. Currently, up to [fourteen (14) Epiverse-TRACE packages](https://epiverse-trace.github.io/etstats/index.html) are
+available on [CRAN](https://cran.r-project.org/) This reflects the results of
+two years of joint efforts between team members and our user communities.
 
-Every year, the Epiverse-TRACE team members, along with invited
-stakeholders from WHO, Data.org, and various healthcare organizations,
-convene to discuss progress, evaluate deliverables, and plan future
-activities. The third Epiverse-TRACE annual summit will be held at the
-MRC Unit in Fajara, The Gambia from December 2 to 6, 2024, under the
-theme: Strengthening Sustainable and Inclusive Analytics Ecosystem for
-Epidemic Preparedness.
-
-The organizing committees of this event, composed of members from the
-different Epiverse teams, have developed the summit’s program to ensure
-the success of the event. This includes a pre-summit training workshop
-scheduled to be held a week before the summit (25 - 29 November 2024).
-The training will be conducted by our team of Research Fellows (RFs),
-supported by Research Software Engineers (RSEs). Participants will learn
-how to use our tools within an outbreak analysis workflow.
+Every year, the Epiverse-TRACE team members, along with invited stakeholders
+from WHO, Data.org, and various healthcare organizations, convene to discuss progress, evaluate deliverables, and plan future activities. The third Epiverse-TRACE annual summit will be held at the MRC Unit in Fajara, The Gambia from December 2 to 6, 2024, under the theme: **Strengthening Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness**.
 
 [Data.org](https://data.org)
 :::
@@ -67,44 +51,27 @@ Prior to commence the summit, we have conducted a week-long pre-summit training 
 
 The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
 ```
-## Openning Ceremony
 
-The third Epiverse Summit was held in Banjul from the 2nd to the 6th of
-December under the theme “Strengthening a Sustainable and Inclusive
-Analytics Ecosystem for Epidemic Preparedness”. This annual flagship
-event brought together 44 participants, including 6 members of the
-LSHTM, 4 members from Universidad Javeriana and Universidad de los Andes
-in Colombia, 6 members from the MRC Unit The Gambia, and 5 members of
-data.org. The discussions during the welcome ceremony at the Sir Dawda
-Kairaba Jawara International Conference Centre were centered around the
-importance of the Epiverse initiative and plans for its second phase. In
-his keynote address Dr. Ahmadou Lamin Samateh, the Honourable Minister
-of Health of The Gambia stated that “the development of analytics tools
-for pandemic preparedness and response is timely and essential.” He
-added that “the memories of the COVID-19 pandemic are still fresh,
-highlighting the need to be prepared for future pandemics with the right
-tools and processes”. According to Dr. Bubacarr Bah, Head of Data
-Science Cluster at MRCG at LSHTM and one of the Principal Investigator
-for the Epiverse-TRACE project, “this is a global initiative and it is
-about building open-source tools for analysis to transform the way we
-deliver data science for social good. Our main goal was to change how
-analytics tools are used in global infectious disease response, moving
-from ad-hoc approaches to integrated, generalisable and scalable
-community-driven software.” In their interventions, Uyi Stewart, Chief
-Data and Technology Officer and Maguette Ndong, Technical Program
-Manager at data.org provided details of the plans for the second phase
-of the project, while highlighting the important role of data.org in its
-implementation. The afternoon sessions of the summit consisted in
-multiple discussions between the research software developers (RSEs) and
-research fellows (RFs) around topics that are important for the
-sustainability of the project and building a cohesive team. A summary of
-main outcomes from these panels can be found here.
+## Openning Ceremony 
+
+The third Epiverse Summit was held in Banjul from the 2nd to the 6th of December under the theme “Strengthening a Sustainable and Inclusive Analytics Ecosystem
+for Epidemic Preparedness”. This annual flagship event brought together 44 participants, including 6 members of the LSHTM, 4 members from Universidad Javeriana and Universidad de los Andes in Colombia, 6 members from the MRC Unit The Gambia, and 5 members of data.org.
+The discussions during the welcome ceremony at the Sir Dawda Kairaba Jawara International Conference Centre were centered around the importance of the Epiverse initiative and plans for its second phase. In his keynote address Dr. Ahmadou Lamin Samateh, the Honourable Minister of Health of The Gambia stated
+that “the development of analytics tools for pandemic preparedness and response
+is timely and essential.” He added that “the memories of the COVID-19 pandemic
+are still fresh, highlighting the need to be prepared for future pandemics with the right tools and processes”. According to Dr. Bubacarr Bah, Head of Data Science Cluster at MRCG at LSHTM and one of the Principal Investigator for the Epiverse-TRACE project, “this is a global initiative and it is about building open-source tools for analysis to transform the way we deliver data science for social good. Our main goal was to change how analytics tools are used in global infectious disease response, moving from ad-hoc approaches to integrated, generalisable and scalable community-driven software.” In their interventions,
+Uyi Stewart, Chief Data and Technology Officer and Maguette Ndong, Technical Program Manager at data.org provided details of the plans for the second phase
+of the project, while highlighting the important role of data.org in its implementation.
+The afternoon sessions of the summit consisted in multiple discussions between
+the research software developers (RSEs) and research fellows (RFs) around topics that are important for the sustainability of the project and building a cohesive team. A summary of main outcomes from these panels can be found here.
+
 
 ### Sustainability of Epidemics Analytics Tools
 
 ```{=typst}
 #lorem(60)
 ```
+
 ### Inclusivity within Epiverse-TRACE Tools
 
 Khairoonisa Foflonker's presentation at the EPIVERSE Summit effectively
@@ -268,6 +235,7 @@ to follow.
 :::
 
 ::: {.block fill="luma(610)" inset="16pt" radius="20pt"}
+
 ## Assessment
 
 1.  How can we gather feedback effectively from learners to continuously
@@ -327,3 +295,4 @@ Data.org
 WHO
 1. Finlay Campbell
 
+:::
