@@ -62,7 +62,7 @@ Prior to commence the summit, we have conducted a week-long pre-summit training 
 The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
 ```
 
-## Openning Ceremony
+## Opening Ceremony
 
 ```{=typst}
 // We use `rect` to emphasize the
@@ -79,9 +79,9 @@ The full report about this course is available on zenodo: #link("https://zenodo.
   rows: (260pt, 300pt),
   gutter: 0pt,
   rect[The third Epiverse Summit was held in Banjul from the 2nd to the 6th of December under the theme “Strengthening a Sustainable and Inclusive Analytics Ecosystem for Epidemic Preparedness”. This annual flagship event brought together 44 participants, including 6 members of the LSHTM, 4 members from Universidad Javeriana and Universidad de los Andes in Colombia, 6 members from the MRC Unit The Gambia, and 5 members of data.org. The discussions during the welcome ceremony at the Sir Dawda Kairaba Jawara International Conference Centre were centered around the importance of the Epiverse initiative and plans for its second phase. ],
-  rect[#image("./images/teamb.png", height: 100%),],
+  rect[#image("./images/group_pic.jpg", height: 100%),],
   figure(
-  image("./images/teamb.png", width: 100%),
+  image("./images/MoH.jpg", width: 100%),
   caption: [Dr. Ahmadou Lamin Samateh, the Honourable Minister of Health of The Gambia.],
 ),
   rect(inset: 8pt, fill: rgb("#10BED2"), width: 100%)[#text(size: 30pt)[“...the development of analytics tools for pandemic preparedness and response is timely and essential ...”.]]
@@ -105,13 +105,13 @@ The full report about this course is available on zenodo: #link("https://zenodo.
   rows: (260pt, 30pt),
   gutter: 0pt,
   figure(
-  image("./images/teamb.png", width: 100%),
+  image("./images/Bubacarr.jpg", width: 100%),
   caption: [Dr. Bubacarr Bah, Head of Data Science Cluster at MRCG at LSHTM.]
 ),
   rect[“This is a global initiative and it is about building open-source tools for analysis to transform the way we deliver data science for social good. Our main goal was to change how analytics tools are used in global infectious disease response, moving from ad-hoc approaches to integrated, generalisable and scalable community-driven software.”],
   rect(inset: 14pt, fill: rgb("#10BED2"), width: 100%)[#text(size: 30pt)[This can be one of the picture from Uyi's presentation.]],
   figure(
-  image("./images/teamb.png", width: 100%),
+  image("./images/Uyi.jpg", width: 100%),
   caption: [Dr. Uyi Stewart, Chief Data and Technology Officer.]
 )
   
@@ -186,7 +186,7 @@ CLOSING
 This journey was just the beginning. Let’s keep exploring, learning, and growing together. The lessons gained from this experience will continue to inspire teamwork and collaboration in our workplace.
 ```
 
-### NTDsgit
+### NTDs
 
 ```{=typst}
 #lorem(60)
@@ -320,29 +320,29 @@ to follow.
         learners' experiences and skill development.
 :::
 
-MRCG 
-1. Bubacarr Bah 
-2. Nuredin Mohammed 
-3. Abdoelnaser Degoot 
-4. Bankole Ahadzie 
-5. Karim Mané 
-6. Atta Lowe 
-7. Kebba Secka
+**MRCG:**
+Bubacarr Bah 
+Nuredin Mohammed 
+Abdoelnaser Degoot 
+Bankole Ahadzie 
+Karim Mané 
+Atta Lowe 
+Kebba Secka
 
-LSHTM 
-1. Adolfo Valle Campos 
-2. Adam Kucharski
-3. Carmen Tamayo 
-4. James Azam
-5. Joshua Lambert
-6. Sebastian Funk
+**LSHTM**
+Adolfo Valle Campos 
+Adam Kucharski
+Carmen Tamayo 
+James Azam
+Joshua Lambert
+Sebastian Funk
 
-Pontificia Universidad Javeriana 
-1. Andrés Moreno Barbosa
-2. Laura Gomez-Bermeo
-3. Zulma M. Cucunubá
+**Pontificia Universidad Javeriana**
+Andrés Moreno Barbosa
+Laura Gomez-Bermeo
+Zulma M. Cucunubá
 
-Universidad de los Andes 
+**Universidad de los Andes**
 1. Maria Camila Tavera Cifuentes
 2. Natalia Nino
 
@@ -355,4 +355,4 @@ Data.org
 
 WHO
 1. Finlay Campbell
-:::
+
