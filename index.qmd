@@ -54,7 +54,7 @@ The organizing committees of this event, composed of members from the different 
   grid.cell(
     colspan: 2,
     pad(
-    x: -40pt,
+    x: -20pt,
     y:  -10pt,
     image("images/presumit_picture.jpg", width: 100%)
     ),
