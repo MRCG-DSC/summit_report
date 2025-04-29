@@ -2,3 +2,8 @@ __*
 index.typ
 index.pdf
 typst-template.pdf
+.Rproj.user
+
+# Backup files
+.DS_Store
+*~
