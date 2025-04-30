@@ -55,11 +55,15 @@ Epidemic Preparedness**.
 ### Pre Summit Training
 
 ```{=typst}
-Prior to commence the summit, we have conducted a week-long pre-summit training course on "Outbreak Analytics and Applied Modelling with R" at MRCG, Banjul, The Gambia. The training program was designed to provide participants with practical skills in outbreak data analysis using specialized R packages. This training was facilitated by Epiverse-TRACE members from MRCG, LSHTM, and TRACE-LAC.
+#columns(2)[
+Prior to commencing the summit, we have conducted a week-long pre-summit training course on "Outbreak Analytics and Applied Modelling with R" at MRCG, Banjul, The Gambia. The training program was designed to provide participants with practical skills in outbreak data analysis using specialized R packages. This training was facilitated by Epiverse-TRACE members from MRCG, LSHTM, and TRACE-LAC. The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
+
+#image("/images/presummit_4.png")
 
 #image("/images/presumit_picture.jpg")
 
-The full report about this course is available on zenodo: #link("https://zenodo.org/records/14946723")[Pre-summit Training report].
+#image("/images/presummit_3.png")
+]
 ```
 
 ## Opening Ceremony
@@ -214,111 +218,51 @@ During the final day of the summit, participants shared insights on designing an
 In this session, the training team presented the pre-summit training report along with its feedback (see #link("https://zenodo.org/records/14946723")[Pre-summit Training report]).
 
  We also discussed strategies for implementing training in the project's second phase, including the EpiTkit modules as part of comprehensive training in TRACE-LAC for Latin America and the LSHTM-MRCG plans for delivering training courses in Africa. 
-The discussion centered on four key aspects of training: content, audience, cultural adaptation, and assessment. Participants, divided into five groups, responded to targeted questions within each aspect. Their insights were collected and summarized in the following table.
-```
+The discussion centered on four key aspects of training: content, audience, cultural adaptation, and assessment. Participants, divided into five groups, responded to targeted questions within each aspect. Their insights were collected and summarized in the following boxes.
 
-::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
-
-## Contents
-
-1.  Are there any emerging infectious diseases or health challenges in
-    Africa that you think should be prioritized in the content? Can you
-    provide an example of a specific case that should be included?
-
-Africa faces a range of emerging and re-emerging infectious diseases,
+ #align(left)[#block(
+  fill: rgb(215, 231, 235),
+  inset: 16pt,
+  radius: 50pt,
+   width: 420pt,
+)[#align(center)[#underline[== Contents]] 
+The course should be designed as an integrated, flexible, and adaptable
+training program, allowing for self-paced learning while remaining easy
+to follow. Focus on merging and re-emerging infectious diseases,
 vector-borne diseases, and non-communicable health challenges. Key
 examples include Ebola, Mpox, HIV, Malaria, Chikungunya, Dengue, Marburg
 virus disease, and cervical cancer caused by HPV.
+]]
 
-2.  What do you think is the best structure for tutorial content to make
-    it clear, engaging, and easy to follow?
+#align(right)[#block(
+  fill:  rgb("#7fdbff"),
+  inset: 16pt,
+  radius: 50pt,
+  width: 420pt,
+)[ #align(center)[#underline[== Audience]] 
+ Encourage ongoing, inclusive feedback by offering multiple channels--such as in-person or virtual input, anonymous surveys, real-time comments, and discussion forums--while also engaging focus groups, diverse participants, and local leaders to ensure all perspectives, especially underrepresented ones, are heard and addressed.
+]]
 
-The course should be designed as an integrated, flexible, and adaptable
-training program, allowing for self-paced learning while remaining easy
-to follow.
-:::
+#align(left)[#block(
+  fill:  rgb("#ff851b"),
+  inset: 16pt,
+  radius: 50pt,
+  width: 420pt,
+)[ #align(center)[#underline[== Cultural Adaptation]] 
+ Customize course materials for each training session by respecting regional, cultural, and religious differences; promote inclusivity through culturally aware content, inclusive language, and a clear code of conduct that fosters respect and avoids reinforcing bias or discrimination.
+]
+]
 
-::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
-
-## Audience
-
-1.  How can we ensure that the material is inclusive and accessible to
-    underrepresented groups in the field, such as women, rural
-    professionals, or individuals from different cultures or
-    backgrounds?
-
--   Encourage continuous feedback by allowing participants to share
-    their insights in person or virtually.
--   Collect anonymous feedback through surveys, crash reports, and
-    real-time comments.
-
-2.  What strategies do you recommend for effectively reaching and
-    engaging the target audience, especially in diverse African
-    contexts?
-    -   Provide multiple feedback channels, including discussion forums
-        (e.g., Google Forms, Microsoft Forms).
-    -   Designate focus groups to gather perspectives from
-        underrepresented audiences.
-    -   Engage diverse participants through anecdotal insights to ensure
-        varied experiences are considered.
-    -   Engage with local leaders and prioritize their needs and areas
-        of improvement.
-:::
-
-::: {.block fill="luma(610)" inset="12pt" radius="20pt"}
-
-## Cultural Adaptation
-
-1.  What cultural considerations should we keep in mind to make the
-    materials relevant and relatable for audiences in different African
-    countries?
-
--   Tailor course materials to each training session rather than using a
-    one-size-fits-all approach.
--   Recognize regional and national differences—avoid assuming all
-    African countries have the same cultural, social, or educational
-    contexts.
--   Respect dress codes by considering cultural norms for both men and
-    women.
--   Acknowledge religious observances such as Ramadan and Christmas,
-    ensuring that training schedules and activities remain inclusive and
-    considerate.
-
-2.  How can we ensure that the examples or case studies used in the
-    materials avoid being stigmatizing or insensitive, particularly
-    regarding cultural or religious considerations?
-
-    -   Incorporate cultural training to raise awareness of diverse
-        perspectives Use inclusive language and avoid topics that may
-        reinforce ableism, sexism, classism, or transphobia.
-    -   Establish a clear code of conduct that upholds respect and
-        inclusivity in all course materials.
-:::
-
-::: {.block fill="luma(610)" inset="16pt" radius="20pt"}
-## Assessment
-
-1.  How can we gather feedback effectively from learners to continuously
-    improve the material?
-
--   Conduct continuous evaluations and surveys to gather structured
-    feedback.
--   Incorporate interactive games to engage learners and assess their
-    understanding.
--   Use practical exercises where participants apply their knowledge to
-    real-world scenarios, reflecting on what they can do with what
-    they’ve learned.
-
-2.  What methods do you recommend for evaluating the impact of these
-    materials on knowledge and skills development?
-
-    -   Maintain continuous engagement with stakeholders and foster
-        communities of interest.
-    -   Facilitate long-term discussions through platforms like GitHub
-        issues to track feedback and improvements.
-    -   Organize group discussions to gather qualitative insights on
-        learners' experiences and skill development.
-:::
+#align(right)[#block(
+  fill:  rgb("#01ff70"),
+  inset: 16pt,
+  radius: 50pt,
+  width: 420pt
+)[ #align(center)[#underline[== Assessment]] 
+  Conduct ongoing evaluations through surveys, interactive games, and practical exercises to assess learning and engagement; foster sustained stakeholder involvement via platforms like GitHub and group discussions to gather both structured and qualitative feedback for continuous improvement.
+]
+]
+```
 
 **MRCG:**
 Bubacarr Bah 
