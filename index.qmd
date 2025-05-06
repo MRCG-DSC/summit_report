@@ -65,7 +65,6 @@ Prior to commencing the summit, we have conducted a week-long pre-summit trainin
 #image("/images/presummit_3.png")
 ]
 ```
-
 ## Opening Ceremony
 
 ```{=typst}
@@ -90,10 +89,7 @@ Prior to commencing the summit, we have conducted a week-long pre-summit trainin
 ),
   rect(inset: 8pt, fill: rgb("#10BED2"), width: 100%)[#text(size: 30pt)[“...the development of analytics tools for pandemic preparedness and response is timely and essential ...”.]]
 )
-
 ```
-
-
 ```{=typst}
 // We use `rect` to emphasize the
 // area of cells.
@@ -121,9 +117,6 @@ Prior to commencing the summit, we have conducted a week-long pre-summit trainin
   
 )
 ```
- 
-
-
 ### Sustainability of Epidemics Analytics Tools
 
 ```{=typst}
@@ -140,74 +133,62 @@ belonging within research and work environments. The presentation
 encourages critical self-reflection and proactive steps towards building
 more inclusive cultures.
 
-### Team Building
+### 
 
 ```{=typst}
 
-Summary
+== Team Building 
 
-The thrill of the Kartong Snake Farm to the rhythm of paddles on the River Gambia, our team-building journey blended adventure, culture, and collaboration. This report highlights how these experiences strengthened team members' trust, communication, and camaraderie.
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 16pt,
+  [ // First column
+    #image("images/Team.png", width: 100%)
+  ],
+  
+  
+    
+  
+  
+  [ // Second column
+  
+  #box(
+      inset: 12pt,
+      fill: rgb("#10BED2"),
+      radius: 4pt,
+      text(white, weight: "bold", size: 14pt, [
+        == Objectives
+      ])
+    )
+    
+    #grid(
+      columns: (auto, 1fr),
+      row-gutter: 0.5em,
+      [➤], [Build resilience through shared challenges],
+      [➤], [Strengthen team connections],
+      [➤], [Encourage trust and communication]
+    )
+  ]
+)
 
-OBJECTIVES OF THE TEAM BUILDING
-
-Build resilience through shared challenges.
-
-Strengthen team connections and foster collaboration.
-
-Encourage trust and effective communication.
 
 
-
-ACTIVIES
-
-Conference Dinner: An Evening of Connection
-
-The conference dinner set the tone for the summit, with teams sharing stories over traditional dishes like Benachin. Informal conversations sparked ideas that carried into the days ahead.
-
-Kartong Snake Farm Visit: Facing Fears & Building Trust
-
-At the Kartong Snake Farm, teams confronted fears and embraced curiosity. Handling snakes like pythons became a metaphor for tackling workplace challenges head-on.
-
-Boat Ride & Tanji Bird Reserve: A Journey of Discovery
-
-Where the river meets the ocean, our boat ride to the river-ocean confluence symbolised unity in diversity. At the Tanji Bird Reserve, teams observed over 45 bird species, drawing parallels between ecological harmony and workplace collaboration.
-
-Kayaking: Paddling in Sync
-
-The summit culminated with a 15km kayaking challenge on the River Gambia. Coordinating strokes and maintaining communication mirrored the teamwork required under workplace pressure.
-
-
-OUTCOMES
-
-Increased Collaboration: Strengthened interpersonal relationships and teamwork.
-
-Enhanced Trust: Facing challenges together improved confidence and trust among team members.
-
-Improved Communication: Effective coordination during activities reinforced the importance of clear communication in the workplace.
-
-CLOSING
-
-This journey was just the beginning. Let’s keep exploring, learning, and growing together. The lessons gained from this experience will continue to inspire teamwork and collaboration in our workplace.
 ```
-
 ### NTDs
 
 ```{=typst}
 #lorem(60)
 ```
-
 ### One Health
 
 ```{=typst}
 #lorem(60)
 ```
-
 ### Disease Surveillance
 
 ```{=typst}
 #lorem(60)
 ```
-
 ### Designing Outbreak Analytics Course
 
 ```{=typst}
@@ -263,40 +244,19 @@ virus disease, and cervical cancer caused by HPV.
 ]
 ]
 ```
+**MRCG:** Bubacarr Bah Nuredin Mohammed Abdoelnaser Degoot Bankole
+Ahadzie Karim Mané Atta Lowe Kebba Secka
 
-**MRCG:**
-Bubacarr Bah 
-Nuredin Mohammed 
-Abdoelnaser Degoot 
-Bankole Ahadzie 
-Karim Mané 
-Atta Lowe 
-Kebba Secka
+**LSHTM** Adolfo Valle Campos Adam Kucharski Carmen Tamayo James Azam
+Joshua Lambert Sebastian Funk
 
-**LSHTM**
-Adolfo Valle Campos 
-Adam Kucharski
-Carmen Tamayo 
-James Azam
-Joshua Lambert
-Sebastian Funk
+**Pontificia Universidad Javeriana** Andrés Moreno Barbosa Laura
+Gomez-Bermeo Zulma M. Cucunubá
 
-**Pontificia Universidad Javeriana**
-Andrés Moreno Barbosa
-Laura Gomez-Bermeo
-Zulma M. Cucunubá
+**Universidad de los Andes** 1. Maria Camila Tavera Cifuentes 2. Natalia
+Nino
 
-**Universidad de los Andes**
-1. Maria Camila Tavera Cifuentes
-2. Natalia Nino
+Data.org 1. Chris Hartgerink 2. Diana Fajardo Pulido 3. Maguette Ndong
+4. Paul Korir 5. Uyi Steward
 
-Data.org
-1. Chris Hartgerink
-2. Diana Fajardo Pulido
-3. Maguette Ndong 
-4. Paul Korir
-5. Uyi Steward
-
-WHO
-1. Finlay Campbell
-
+WHO 1. Finlay Campbell
